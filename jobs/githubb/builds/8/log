@@ -1,0 +1,29 @@
+Started by user [8mha:////4I1OHOMjB5Y3ZNOxe65LY3I22zlOuHpAgXZoAMI6crh4AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/dLi1CL9ovykzLyU1KL4YqApGQBS0l9kyQAAAA==[0mrobinder singh
+Building in workspace /var/lib/jenkins/workspace/githubb
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/suryadevta/test_code # timeout=10
+Fetching upstream changes from https://github.com/suryadevta/test_code
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/suryadevta/test_code +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6131dc4ebea5e3305be1fa601346bcc55595000 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6131dc4ebea5e3305be1fa601346bcc55595000
+Commit message: "-a"
+ > git rev-list --no-walk e6131dc4ebea5e3305be1fa601346bcc55595000 # timeout=10
+No emails were triggered.
+[githubb] $ /bin/sh -xe /tmp/jenkins1564679451910160841.sh
++ chmo +x testscript.sh
+/tmp/jenkins1564679451910160841.sh: line 2: chmo: command not found
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: robindersingh12@gmail.com
+Email was triggered for: Failure - Any
+Email was triggered for: Always
+Sending email for trigger: Failure - Any
+An attempt to send an e-mail to empty list of recipients, ignored.
+Sending email for trigger: Always
+Sending email to: robindersingh12@gmail.com
+Finished: FAILURE

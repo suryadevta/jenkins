@@ -1,0 +1,28 @@
+Started by user [8mha:////4I1OHOMjB5Y3ZNOxe65LY3I22zlOuHpAgXZoAMI6crh4AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/dLi1CL9ovykzLyU1KL4YqApGQBS0l9kyQAAAA==[0mrobinder singh
+Building in workspace /var/lib/jenkins/workspace/githubb
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/suryadevta/test_code
+ > git init /var/lib/jenkins/workspace/githubb # timeout=10
+Fetching upstream changes from https://github.com/suryadevta/test_code
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/suryadevta/test_code +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/suryadevta/test_code # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/suryadevta/test_code # timeout=10
+Fetching upstream changes from https://github.com/suryadevta/test_code
+ > git fetch --tags --progress https://github.com/suryadevta/test_code +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b8a48e1af50dab589b51032100240e4bacb649f0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b8a48e1af50dab589b51032100240e4bacb649f0
+Commit message: "Create testscript.sh"
+First time build. Skipping changelog.
+[githubb] $ /bin/sh -xe /tmp/jenkins24816044397554883.sh
++ chmod +x testscript.sh
++ ./testscript.sh
+this si script from git hub
+34
+This is completed
+Finished: SUCCESS

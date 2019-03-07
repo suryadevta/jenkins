@@ -1,0 +1,8 @@
+Started by user [8mha:////4I1OHOMjB5Y3ZNOxe65LY3I22zlOuHpAgXZoAMI6crh4AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/dLi1CL9ovykzLyU1KL4YqApGQBS0l9kyQAAAA==[0mrobinder singh
+Building in workspace /var/lib/jenkins/workspace/new
+[new] $ /bin/sh -xe /tmp/jenkins2107079548475787808.sh
++ sudo pwd
+/var/lib/jenkins/workspace/new
++ echo 'this is firts job'
+Triggering a new build of [8mha:////4N330EmNc1SOhsWxBk4wOSIQve2ijNvOKdpVuErQ08veAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JP281HIjfQDbnnK2vwAAAA==[0mnew2
+Finished: SUCCESS

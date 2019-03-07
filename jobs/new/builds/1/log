@@ -1,0 +1,15 @@
+Started by user [8mha:////4I1OHOMjB5Y3ZNOxe65LY3I22zlOuHpAgXZoAMI6crh4AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/dLi1CL9ovykzLyU1KL4YqApGQBS0l9kyQAAAA==[0mrobinder singh
+Building in workspace /var/lib/jenkins/workspace/new
+[new] $ /bin/sh -xe /tmp/jenkins3527019143056551354.sh
++ sudo pwd
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

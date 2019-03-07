@@ -1,0 +1,5 @@
+Started by user [8mha:////4I1OHOMjB5Y3ZNOxe65LY3I22zlOuHpAgXZoAMI6crh4AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/dLi1CL9ovykzLyU1KL4YqApGQBS0l9kyQAAAA==[0mrobinder singh
+Building in workspace /var/lib/jenkins/workspace/new2
+[new2] $ /bin/sh -xe /tmp/jenkins3331503076294659072.sh
++ echo 'this is second job'
+Finished: SUCCESS

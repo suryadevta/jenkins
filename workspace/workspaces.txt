@@ -1,0 +1,6 @@
+Multibranch_pipeline/TEST
+Multibranch_pipeline_TEST
+Multibranch_pipeline/master
+Multibranch_pipeline_master
+Multibranch_pipeline/testing
+Multibranch_pipeline_testing

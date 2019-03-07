@@ -1,0 +1,52 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>Passed</name>
+          <description></description>
+          <value>newstring</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>Firstnumber</name>
+          <description></description>
+          <value>12</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>Secondnumber</name>
+          <description></description>
+          <value>22</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>Passed</string>
+        <string>Firstnumber</string>
+        <string>Secondnumber</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>robinder_singh</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>18</queueId>
+  <timestamp>1550553709462</timestamp>
+  <startTime>1550553709464</startTime>
+  <result>SUCCESS</result>
+  <duration>28</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/new_stuff/scripty</workspace>
+  <hudsonVersion>2.165</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

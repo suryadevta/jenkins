@@ -1,0 +1,10 @@
+Started by user [8mha:////4I1OHOMjB5Y3ZNOxe65LY3I22zlOuHpAgXZoAMI6crh4AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/dLi1CL9ovykzLyU1KL4YqApGQBS0l9kyQAAAA==[0mrobinder singh
+Building in workspace /var/lib/jenkins/workspace/new_stuff/scripty
+[scripty] $ /bin/sh -xe /tmp/jenkins3844311447663020322.sh
++ echo 'this is parmaeter newstring'
+this is parmaeter newstring
+++ 12+22
+/tmp/jenkins3844311447663020322.sh: line 3: 12+22: command not found
++ NUM=
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,117 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.31">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>robinder_singh</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.3.0">
+      <sourceId>b4f48b60-c1b3-4796-8ff6-90efd39acf03</sourceId>
+      <revision class="jenkins.plugins.git.GitBranchSCMRevision" plugin="git@3.9.3">
+        <head class="jenkins.plugins.git.GitBranchSCMHead">
+          <name>TEST</name>
+        </head>
+        <hash>05230b00cd33876b6b049b1bfceb33702138a3a0</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.13">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>98</queueId>
+  <timestamp>1551886145041</timestamp>
+  <startTime>1551886145044</startTime>
+  <result>FAILURE</result>
+  <duration>2574</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>
+peline {
+    agent any
+    stages {
+        stage(&apos;One&apos;) {
+                steps {
+                        echo &apos;Hi, this is Zulaikha from edureka&apos;
+			
+                }
+        }
+	    stage(&apos;Two&apos;){
+		    
+		steps {
+			input(&apos;Do you want to proceed?&apos;)
+        }
+	    }
+        stage(&apos;Three&apos;) {
+                when {
+                        not {
+                                branch &quot;master&quot;
+                        }
+                }
+                steps {
+			echo &quot;Hello&quot;
+                        }
+        }
+        stage(&apos;Four&apos;) {
+                parallel {
+                        stage(&apos;Unit Test&apos;) {
+                                steps{
+                                        echo &quot;Running the unit test...&quot;
+                                }
+                        }
+                        stage(&apos;Integration test&apos;) {
+                        agent {
+                                docker {
+                                        reuseNode false
+					image &apos;ubuntu&apos;
+                                        }
+			}
+				steps {
+					echo &apos;Running the integration test..&apos;
+				}
+                               
+			}  }
+        }
+    }
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>60277244</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>6174561</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>53229491</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>54793745</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>1677259</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>3</iota>
+    <head>1:3</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

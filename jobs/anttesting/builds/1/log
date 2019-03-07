@@ -1,0 +1,38 @@
+Started by user [8mha:////4I1OHOMjB5Y3ZNOxe65LY3I22zlOuHpAgXZoAMI6crh4AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/dLi1CL9ovykzLyU1KL4YqApGQBS0l9kyQAAAA==[0mrobinder singh
+Building in workspace /var/lib/jenkins/workspace/anttesting
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/darealmc/some_java.git
+ > git init /var/lib/jenkins/workspace/anttesting # timeout=10
+Fetching upstream changes from https://github.com/darealmc/some_java.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/darealmc/some_java.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/darealmc/some_java.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/darealmc/some_java.git # timeout=10
+Fetching upstream changes from https://github.com/darealmc/some_java.git
+ > git fetch --tags --progress https://github.com/darealmc/some_java.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5e08e9fb8ca6f3b1013c152e671cdb0af9dbbcf6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5e08e9fb8ca6f3b1013c152e671cdb0af9dbbcf6
+Commit message: "corrected ant install and junit missing"
+First time build. Skipping changelog.
+[anttesting] $ /usr/share/ant/bin/ant junit
+Buildfile: /var/lib/jenkins/workspace/anttesting/build.xml
+
+[8mha:////4KZruFOyMUoTTqiqzSOvv2+1O1bSOh4MJDv1+thigLaqAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mtcomp:
+    [javac] /var/lib/jenkins/workspace/anttesting/build.xml:13: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+[8mha:////4KZruFOyMUoTTqiqzSOvv2+1O1bSOh4MJDv1+thigLaqAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mtjar:
+      [jar] Building jar: /var/lib/jenkins/workspace/anttesting/test/hello.jar
+
+[8mha:////4KZruFOyMUoTTqiqzSOvv2+1O1bSOh4MJDv1+thigLaqAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mjunit:
+    [junit] Running hellotest
+    [junit] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec
+    [junit] Test hellotest FAILED
+
+[8mha:////4GwNsU+kjZPmFJT9La7kmCKmtc7YdHTau+ikRAWrBzLUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 0 seconds
+Finished: SUCCESS
